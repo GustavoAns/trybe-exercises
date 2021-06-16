@@ -1,1 +1,1 @@
-Esse repositorio Git sero usado para armazenar os exercicios diarios da Trybe
+Esse repositorio Git sera usado para armazenar os exercicios diarios da Trybe
