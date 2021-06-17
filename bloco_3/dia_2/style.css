@@ -1,0 +1,16 @@
+h2 {
+  color: green;
+}
+h1 {
+  font-family: Z003;
+}
+body {
+  background-color: rgb(235, 186, 52);
+  text-align: center;
+}
+strong{
+  background-color: rgb(94, 221, 35);
+}
+ .list-style{
+   background-color: tomato;
+}
