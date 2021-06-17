@@ -7,10 +7,14 @@ h1 {
 body {
   background-color: rgb(235, 186, 52);
   text-align: center;
+  font-family: 'Baloo Tammudu 2', cursive;
 }
 strong{
   background-color: rgb(94, 221, 35);
 }
- .list-style{
-   background-color: tomato;
+.list-style{
+  background-color: tomato;
+}
+.Fotos-bola{
+  border-radius: 50%;
 }
