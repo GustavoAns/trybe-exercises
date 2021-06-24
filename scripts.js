@@ -1,5 +1,6 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-var somanum = 1000000;
+let i;
+var somanum = 0;
 
 
 // Ex1
@@ -41,10 +42,21 @@ var somanum = 1000000;
 // console.log(somanum)
 
 // Ex6
+// *Pior*
 // let quantImpar = 0;
-// for (i=0 ; i<numbers.length; i++){
-//     let diviz = numbers[i]%2
-//     if (diviz!=0){                         <-- Duvida , n da para juntar ?
+// for (i = 0; i < numbers.length; i++) {
+//     let divi = numbers[i] % 2
+//     if (divi != 0) {                    
+//         quantImpar++
+//     }
+// }
+// console.log(quantImpar)
+
+///////////////////////////////////////////
+
+// let quantImpar = 0;
+// for (i = 0; i < numbers.length; i++) {
+//     if ((numbers[i] % 2) != 0) {                    
 //         quantImpar++
 //     }
 // }
@@ -55,6 +67,7 @@ var somanum = 1000000;
 
 // Ex7
 // Mas o somanum tem que ser um numero maior do que os numeros a serem trabalhados
+// var somanum = 1000000;
 // for (i=0 ; i<numbers.length; i++){
 //     if(numbers[i] < somanum){
 //         somanum = numbers[i]
