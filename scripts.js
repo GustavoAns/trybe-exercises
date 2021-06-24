@@ -83,8 +83,8 @@ var somanum = 0;
 // console.log(listNum)
 
 // Ex9
-// let listNum =[];
-// for (i=0 ; i<=25; i++){
-//     listNum.push(i/2)
-// }
-// console.log(listNum)
+let listNum =[];
+for (i=0 ; i<=25; i++){
+    listNum.push(i/2)
+}
+console.log(listNum)
