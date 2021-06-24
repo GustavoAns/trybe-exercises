@@ -198,16 +198,40 @@ console.log(' ')
 
 let salarioBruto = 3000;
 let salarioLiquido;
+let salarioReal;
 
 if (salarioBruto <= 1556.94){
-    salarioLiquido = salarioBruto - (salarioBruto*0,08)
+    salarioLiquido = salarioBruto - (salarioBruto*0.08)
     console.log('Sal liq : '+salarioLiquido)
 }
 else if (salarioBruto >= 1556.95 && salarioBruto <= 2594.92){
-    salarioLiquido = salarioBruto - (salarioBruto*0,09)
+    salarioLiquido = salarioBruto - (salarioBruto*0.09)
     console.log('Sal liq : '+salarioLiquido)
 }
 else if (salarioBruto >= 2594.93 && salarioBruto <= 5189.82){
-    salarioLiquido = (salarioBruto*0,11)
+    salarioLiquido = salarioBruto - (salarioBruto * 0.11)
     console.log('Sal liq : '+salarioLiquido)
+}
+else if (salarioBruto > 5189.82){
+    salarioLiquido = salarioBruto - 570.88
+}
+
+if (salarioLiquido <= 1903.98){
+    console.log('Seu Salario real é :'+salarioLiquido)
+}
+else if (salarioLiquido >= 1903.99 && salarioLiquido <= 2826.65){
+    salarioReal = salarioLiquido - ((salarioLiquido * 0.075) - 142.80)
+    console.log('Seu Salario real é :'+salarioReal)
+}
+else if (salarioLiquido >= 2826.65 && salarioLiquido <= 3751.05){
+    salarioReal = salarioLiquido - ((salarioLiquido * 0.15) - 354.80)
+    console.log('Seu Salario real é :'+salarioReal)
+}
+else if (salarioLiquido >= 3751.06 && salarioLiquido <= 4664.68){
+    salarioReal = salarioLiquido - ((salarioLiquido * 0.225) - 636.13)
+    console.log('Seu Salario real é :'+salarioReal)
+}
+else if (salarioLiquido > 4664.68){
+    salarioReal = salarioLiquido - ((salarioLiquido * 0.275) - 869.36)
+    console.log('Seu Salario real é :'+salarioReal)
 }
