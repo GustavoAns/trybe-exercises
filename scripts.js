@@ -196,7 +196,7 @@ console.log(' ')
 console.log('Proximo')
 console.log(' ')
 
-var salarioBruto = 3000;
+let salarioBruto = 3000;
 let salarioLiquido;
 
 if (salarioBruto <= 1556.94){
@@ -208,6 +208,6 @@ else if (salarioBruto >= 1556.95 && salarioBruto <= 2594.92){
     console.log('Sal liq : '+salarioLiquido)
 }
 else if (salarioBruto >= 2594.93 && salarioBruto <= 5189.82){
-    salarioLiquido = salarioBruto - (salarioBruto*0,11)
+    salarioLiquido = (salarioBruto*0,11)
     console.log('Sal liq : '+salarioLiquido)
 }
