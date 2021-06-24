@@ -50,8 +50,12 @@ var somanum = 0;
 //         quantImpar++
 //     }
 // }
-// console.log(quantImpar)
-
+// if (quantImpar <= 0){
+//     console.log('Não há numeros impares')
+//     }
+//     else{
+//         console.log(quantImpar)
+//     }
 ///////////////////////////////////////////
 
 // let quantImpar = 0;
@@ -60,9 +64,14 @@ var somanum = 0;
 //         quantImpar++
 //     }
 // }
-// console.log(quantImpar)
+// if (quantImpar <= 0){
+//     console.log('Não há numeros impares')
+//     }
+//     else{
+//         console.log(quantImpar)
+//     }
 
-// let x = numbers[5]%2
+// // let x = numbers[5]%2
 // console.log(x)
 
 // Ex7
