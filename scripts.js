@@ -27,27 +27,35 @@ let quadrado = ""
 // console.log(quadrado)
 
 // Ex 4
-    // for (var i = 0; i <= (n - 3); i++) {
-    //     // let ndif = n - (i*2)
-    //     for (var i2 = 0; (i2 + i) <= Math.trunc(n/2); i2++) {
-    //         quadrado += " "
-    //     }
-    //     quadrado += "*"
-    //     // for (var i3 = 0; (i2 + i3) <= ndif; i2++) {
-    //     //     quadrado += "*"
-    //     // }
-    // quadrado += "\n"
-    // }
-    // console.log(quadrado)
+
+// let piramide = "";
+// for (var i = 0; i < Math.trunc(n/2); i++) {
+//     piramide += ' ';
+//     }
+//     piramide += '*';
+
+//     console.log(piramide)
+// for (var i2 = 1 ; i2 <= Math.trunc(n/2) ; i2++){
+//     console.log((Math.trunc(n/2) - i2))
+//     piramide[(Math.trunc(n/2) - i2)] = "*";
+//     piramide += "*";
+//     console.log(piramide)
+// }
+
+// let lista = new Array(n);
+// for (var i = 0 ; i < n ; i++){
+//     lista[i] = " ";
+// }
+//     lista[Math.trunc(n/2)] = "*";
+//     console.log(lista)
+// for (var i2 = 1 ; i2 < Math.trunc(n/2) ; i2++){
+//     lista[(Math.trunc(n/2) - i2)] = "*";
+//     lista[(Math.trunc(n/2) + i2)] = "*";
+//     console.log(lista)
+// }
 
 
-let lista = [];
+let lista2 = 'poldo';
 
-for (var i = 0 ; i < n ; i++){
-    lista[i] = " ";
-}
-    lista[Math.ceil(n/2)] = "*";
-for (var i2 = 1 ; i2 < Math.trunc(n/2) ; i2++){
-    lista[(Math.trunc(n/2) - i2)] = "*";
-    lista[(Math.trunc(n/2) + i2)] = "*";
-}
+    lista2[2] = "*";
+    console.log(lista2)
