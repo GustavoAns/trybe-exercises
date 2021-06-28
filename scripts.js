@@ -29,23 +29,23 @@ let quadrado = ""
 // Ex 4
 // "Consultado : https://www.techiedelight.com/replace-character-specified-index-javascript/"
 //
-String.prototype.replaceAt = function(index, replacement) {
+String.prototype.replaceAt = function (index, replacement) {
     //Validacao//
     if (index >= this.length) {
         return this.valueOf();
     }
     //Em (1,A) // ele vai até a casa 1 e subistitui por A e continua até o final //
- return this.substring(0, index) + replacement + this.substring(index + 1);
+    return this.substring(0, index) + replacement + this.substring(index + 1);
 }
 let piramide = "";
-for (var i = 0; i < Math.trunc(n/2); i++) {
+for (var i = 0; i < Math.trunc(n / 2); i++) {
     piramide += ' ';
-    }
-    piramide += '*';
+}
+piramide += '*';
 
-    console.log(piramide)
-for (var i2 = 1 ; i2 <= Math.trunc(n/2) ; i2++){
-    piramide = piramide.replaceAt(Math.trunc(n/2) - i2,'*');
+console.log(piramide)
+for (var i2 = 1; i2 <= Math.trunc(n / 2); i2++) {
+    piramide = piramide.replaceAt(Math.trunc(n / 2) - i2, '*');
     piramide += "*";
     console.log(piramide)
 }
