@@ -1,4 +1,4 @@
-let n = 9;
+let n = 19;
 let quadrado = ""
 
 // Ex 1
