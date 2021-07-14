@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Formulario</title>
+</head>
+
+<body>
+  <div class="box">
+    <form action="" method="get">
+      <fieldset>
+        <legend><b>Primeiro Fórmulario</b></legend>
+        <br>
+        <div class="divBox">
+          <input class="inputBox" type="text" name="nomeCompleto" id="nomeCompleto" maxlength="40" required>
+          <label for="nomeCompleto" class="inputLabel">Nome Completo:</label>
+          
+        </div>
+        <br>
+        <div class="divBox">
+          <input class="inputBox" type="email" name="email" id="email" maxlength="50" required>
+          <label for="email" class="inputLabel">Email:</label>
+          
+        </div>
+        <br>
+        <div class="divBox">
+          <input class="inputBox" type="number" name="cpf" id="cpf" maxlength="11" required>
+          <label for="cpf" class="inputLabel">CPF:</label>
+        </div>
+        <br>
+        <div class="divBox">
+          <input class="inputBox" type="text" name="endereco" id="endereco" maxlength="200" required>
+          <label for="endereco" class="inputLabel">Endereco:</label>
+        </div>
+        <br>
+        <div class="divBox">
+          <input class="inputBox" type="text" name="cidade" id="cidade" maxlength="28" required>
+          <label for="cidade" class="inputLabel">Cidade:</label>
+        </div>
+        <br>
+        <label for="estado">Estado:
+          <br>
+          <select name="estado" id="estado" required>
+            <!-- Fazer -->
+            <option value="SP">São Paulo</option>
+            <option value="BH">Bahia</option>
+            <option value="MG">Mato Grosso</option>
+          </select>
+        </label>
+        <br>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend><b>Segundo Fórmulario</b></legend>
+        <label for="curriculo">Resumo do currículo:
+          <br>
+          <textarea style="width: 97%;" name="curriculo" id="curriculo" cols="25" rows="5" maxlength="1000"></textarea>
+        </label>
+        <br><br>
+        <div class="divBox">
+          <input class="inputBox" type="text" name="cargo" id="cargo" maxlength="40" required>
+          <label for="cidade" class="inputLabel">Cargo:</label>
+        </div>
+        <br>
+        <label for="descCargo">Descrição do cargo:
+          <br>
+          <textarea style="width: 97%;" name="descCargo" id="descCargo" cols="25" rows="5" maxlength="500"></textarea>
+        </label>
+        <div class="divBox">
+          <label for="endereco" >Data de início:</label>
+          <input class="inputBox" type="date" name="data" id="data" required>
+        </div>
+      </fieldset>
+      <br>
+      <button id="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+
+</html>

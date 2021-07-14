@@ -1,0 +1,66 @@
+body {
+  background-image:linear-gradient(to right,rgb(124,252,0),rgb(211,211,211));
+}
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(0,0,0,0.6);
+  padding: 15px;
+  border-radius: 10px;
+  width: 20%;
+  color: white;
+}
+fieldset {
+  border: 3px solid greenyellow;
+  border-radius: 15px;
+}
+legend {
+  border: 3px solid greenyellow;
+  padding: 10px;
+  text-align: center;
+  background-color: greenyellow;
+  border-radius: 10px;
+  color: black;
+}
+.divBox {
+  position: relative;
+}
+.inputBox {
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  color: white ;
+  font-size: 15px;
+  width: 100%;
+}
+.inputLabel {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  pointer-events: none;
+  transition: .5s;
+}
+.inputBox:focus ~ .inputLabel{
+  top: -20px;
+  font-size: 12px;
+  
+}
+#submit {
+  background-image:linear-gradient(to right,rgb(124,252,0),rgb(211,211,211));
+  width: 100%;
+  border: none;
+  padding: 15px;
+  color:black;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+#submit:hover{
+  background-image:linear-gradient(to right,rgb(104,232,0),rgb(201,201,201));
+}
+#estado{
+  border-radius: 10px;
+}
